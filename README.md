@@ -2,23 +2,26 @@
 
 The original article is available on: https://www.rainerhahnekamp.com/en/type-safe-typescript-with-type-narrowing/
 
-- [1. Introduction](#1-introduction)
-- [2. Equality Narrowing](#2-equality-narrowing)
-- [3. `typeof`](#3-typeof)
-- [4. Truthiness Narrowing](#4-truthiness-narrowing)
-- [5. `instanceof`](#5-instanceof)
-- [6. Discriminated Union](#6-discriminated-union)
-- [7. `in` Type Guard](#7-in-type-guard)
-- [8. Type Predicate](#8-type-predicate)
-- [9. Type Narrowing against `unknown`](#9-type-narrowing-against-unknown)
-  - [9.1. Manual Validation](#91-manual-validation)
-  - [9.2. Automatic Validation: zod](#92-automatic-validation-zod)
-- [10. Assertion Functions](#10-assertion-functions)
-- [11. Summary](#11-summary)
+- [Type-Safe TypeScript with Type Narrowing](#type-safe-typescript-with-type-narrowing)
+  - [1. Introduction](#1-introduction)
+  - [2. Equality Narrowing](#2-equality-narrowing)
+  - [3. `typeof`](#3-typeof)
+  - [4. Truthiness Narrowing](#4-truthiness-narrowing)
+  - [5. `instanceof`](#5-instanceof)
+  - [6. Discriminated Union](#6-discriminated-union)
+  - [7. `in` Type Guard](#7-in-type-guard)
+  - [8. Type Predicate](#8-type-predicate)
+  - [9. Type Narrowing against `unknown`](#9-type-narrowing-against-unknown)
+    - [9.1. Manual Validation](#91-manual-validation)
+    - [9.2. Automatic Validation: zod](#92-automatic-validation-zod)
+  - [10. Assertion Functions](#10-assertion-functions)
+  - [11. Summary](#11-summary)
 
 This article shows common patterns to maximize TypeScript's potential for type-safe code. These techniques are all part of the same group, which we call type narrowing.
 
-A video version of this article is available on: https://youtu.be/MUJBT3Pb_Eg
+A video version of this article is available on:
+
+<a href="https://youtu.be/MUJBT3Pb_Eg"><img src="./video.jpg"></a>
 
 ## 1. Introduction
 
