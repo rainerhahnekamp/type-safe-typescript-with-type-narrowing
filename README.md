@@ -427,7 +427,7 @@ We stay with type narrowing against the `unknown` type. Depending on the applica
 
 Fortunately, it doesn't have to be like that. There are special libraries that do the validation automatically.
 
-One of the most popular ones is "zod". Other similar libraries are "fast-check", or "yup".
+One of the most popular ones is "zod".
 
 For every type, we have to come up with a schema first. This means we programmatically define the type and store it into a variable. So the schema information is also present during the runtime.
 
